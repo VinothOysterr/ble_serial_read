@@ -1,2 +1,5 @@
+# Ignore Python virtual environment
 .venv/
-test_sample.py/
+
+# Ignore test files
+test_sample.py
