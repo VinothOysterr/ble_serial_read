@@ -40,7 +40,7 @@ async def read_sensor_data(client):
             print("-" * 30)  # Separator for readability
 
             # Add a small delay to avoid overwhelming the BLE connection
-            await asyncio.sleep(0.1)  # 100 ms
+            await asyncio.sleep(0.0001)  # 1000 ms
 
     except asyncio.CancelledError:
         print("Stopped reading sensor data.")
